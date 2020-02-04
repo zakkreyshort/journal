@@ -18,8 +18,5 @@ $(document).ready(function(){
         var consonantcount = newEntry.consonantCount();
         $("#vowelcount").text(vowelcount);
         $("#consonantcount").text(consonantcount);
-
-        console.log(wordcount);
-        console.log(journal);
     });
 });

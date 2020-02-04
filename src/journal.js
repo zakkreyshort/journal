@@ -8,7 +8,7 @@ Entry.prototype.wordCount = function() {
     var wordCount = 0;
     wordArray.forEach(function() {
         wordCount += 1;
-    })
+    });
     return wordCount;
 };
 
@@ -24,7 +24,7 @@ Entry.prototype.vowelCount = function(){
         } 
     });
     return vowelCount;
-}
+};
 
 
 Entry.prototype.consonantCount = function(){
@@ -35,8 +35,8 @@ Entry.prototype.consonantCount = function(){
         if(consonants.includes(input)){
             consonantCount++;
         }
-    })
+    });
     return consonantCount;
-}
+};
 
 
